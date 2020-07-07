@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+	<meta name="author" content="Sophie McFarlane">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="index.css">
+	<script type="text/javascript"
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<title>Durham University Netball Club</title>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+  	<img src="images/teamDurham1.jpg" width="30" height="30" alt="Home">
+  DUNC
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#teams">Teams</a>
+    </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://playerlayer.com/account/durham-university-cat/durham-university-netball-club.html">Stash</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#hallOfFame">Hall of Fame</a>
+      </li>
+      <li class="nav-item">
+      	<button href="#signingIn" class="btn my-2 my-sm-0" type="submit" style="color: #ffffff; margin-right: 10px">Sign In</button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <h1 class="display-4 " style="font-size: 3.5rem;">Welcome!</h1>
+  <h1 class="lead" style="font-size: 1.5rem;">This is the page for everything Durham University Netball Club related</h1>
+  <hr class="my-4">
+  <h4>Get involved with anything DUNC by clicking the button below</h4>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#signingIn" role="button" id="signIn">Sign In</a>
+  </p>
+</div>
+
+<div class="container">
+	<div class="row">
+		<h1 style="margin-left: auto; margin-right: auto">Training Times</h1>
+	</div>
+  	<div class="card-deck">
+    <div class="card shadow">
+      <div class="card-body">
+        <h5 class="card-title">Court Session</h5>
+        <h6 class="card-subtitle">01/02/19</h6>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="#signingIn" class="btn btn-primary">Sign In</a>
+      </div>
+    </div>
+    <div class="card shadow">
+      <div class="card-body">
+        <h5 class="card-title">Weights</h5>
+        <h6 class="card-subtitle">04/02/19</h6>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <a href="#signingIn" class="btn btn-primary">Sign In</a>
+      </div>
+    </div>
+    <div class="card shadow">
+      <div class="card-body">
+        <h5 class="card-title">Track</h5>
+        <h6 class="card-subtitle">07/02/19</h6>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <a href="#signingIn" class="btn btn-primary">Sign In</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="container">
+  <div class="row">
+    <h1 style="margin-left: auto; margin-right: auto;">Teams</h1>
+    <a id="teams"></a>
+  </div>
+</div>
+
+<div class="container">
+<div id="carouselTeams" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/firstTeam.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/2ndTeam.JPG" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/3rdTeam.JPG" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselTeams" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselTeams" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+<div class="container">
+  <p><br>We are a welcoming, tight-knit club, with a work hard, but also play hard mentality.
+
+        DUNC has 5 teams entered in BUCS leagues, and also runs a development squad to offer additional training to college netball players. 
+
+        BUCS games take place on Wednesday afternoons, and all members of the club enjoy attending and supporting the games of other teams. 
+        ​
+        Socials take place on Wednesday nights, and nothing is better than celebrating a whitewash of wins!<br>We are so fortunate to have 2 amazing coaches on board for the 2018/19 season, in Josie Pointon, and England International Leah Kennedy. They will split the coaching of all the teams between themselves according to their tactical specialities and team requirements.<br>1s and 2s have 2 weekly court training sessions
+        3s, 4s and 5s have 1 weekly court session
+        All teams have both a strength and conditioning session and a fitness session every week. 
+        All members are expected to complete extra fitness sessions.<br>Last season saw us have our best season to date with the 1s promoted to Northern 1A, and a narrow 2nd in Conference Cup. Whilst the 2s promoted to Northern 2B and the 5s promoted to Northern 8B, and a narrow 2nd in Conference Plate.</p>
+</div>
+
+<br>
+
+  <div class="container">
+    <div class="row">
+      <h1 style="margin-right: auto; margin-left: auto">Hall of Fame</h1>
+      <a id="hallOfFame"></a>
+    </div>
+    <div class="row">
+      <div class="col" style="margin-top: auto; margin-bottom: auto">
+      <p> Sophie McFarlane and Alex Taal succeeded in making the U21 Team Northmbria team for the 2017/18 season. They competed in the NPL U21 league against other Superleague teams. They also took part in the U21 summer tounament in Nottingham where Sophie lead the team as captain to two amazing victories over Severn Stars. Although it was a bitter sweet moment with Team Northumbria not existing anymnore, they thoroughly enjoyed their experience.</p>
+      </div>
+      <div class="col">
+        <img src="images/teamDurham1.jpg">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img src="images/teamDurham1.jpg">
+      </div>
+      <div class="col" style="margin-top: auto; margin-bottom: auto">
+        <p> Sophie McFarlane and Alex Taal succeeded in making the U21 Team Northmbria team for the 2017/18 season. They competed in the NPL U21 league against other Superleague teams. They also took part in the U21 summer tounament in Nottingham where Sophie lead the team as captain to two amazing victories over Severn Stars. Although it was a bitter sweet moment with Team Northumbria not existing anymnore, they thoroughly enjoyed their experience.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col" style="margin-top: auto; margin-bottom: auto">
+        <p>Leah Kennedy has become a coach of the Durham University Club for the 2018/19 season. She is an English Netball player who has played for Team Northumbria and Sirens Netball in the Netball Superleague. In 2016, Kennedy made her debut as well as earned her first test cap for England against Northern Ireland at the Netball Europe championship</p>
+      </div>
+      <div class="col">
+        <img src="images/leahKennedy.jpg">
+      </div>
+    </div>
+  </div>
+
+
+<br>
+
+<div class="container">
+  <div class="row">
+    <h1 style="margin-left: auto; margin-right: auto;">Get Involved</h1>
+  </div>
+  <div class="card-deck">
+    <div class="card shadow">
+      <div class="card-body">
+        <h3 class="card-title">Log In</h3>
+        <div class="form-group">
+           <form id="loginForm">
+              <div class="form-group">
+                <Label>Forename</Label>
+              <input class="form-control" id="forename1"placeholder="Enter forename"></input>
+            </div>
+            <div class="form-group">
+                <Label>Surname</Label>
+              <input class="form-control" id="surname1" placeholder="Enter surname"></input>
+            </div>
+            <div class="form-group">
+              <Label>Username</Label>
+            <input class="form-control" id="username1" placeholder="Enter username"></input>
+          </div>
+          <div class="form-group">
+            <Label>Password</Label>
+              <input class="form-control" id="password1" placeholder="Enter Password"></input>
+            </div>
+            <button type="submit" class="btn" style=
+            "color: #ffffff">Log in</button>
+          </form>
+      </div>
+    </div>
+  </div>
+    <div class="card shadow">
+      <div class="card-body">
+        <h3 class="card-title">Sign Up</h3>
+        <form id="signUp">
+          <a id="signingIn"></a>
+          <div class="form-group">
+            <Label>Forename</Label>
+          <input class="form-control" id="forename" placeholder="Enter forename"></input>
+        </div>
+        <div class="form-group">
+            <Label>Surname</Label>
+          <input class="form-control" id="surname" placeholder="Enter surname"></input>
+        </div>
+        <div class="form-group">
+          <Label>Username</Label>
+        <input class="form-control" id="username" placeholder="Enter username"></input>
+      </div>
+      <div class="form-group">
+        <Label>Password</Label>
+          <input class="form-control" id="password" placeholder="Enter Password"></input>
+        </div>
+        <button type="submit" class="btn" style=
+        "color: #ffffff">Sign Up</button>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<br>
+
+  <div id="signedIn"></div>
+
+  <footer class="page-footer font-small pt-4 container-fluid">
+    <div class="container-fluid" text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">dunc</h5>
+          <p>Durham University Netball Club</p>
+        </div>
+        <div class="col-md-6 mt-md-0 mt-3">
+          <a href="https://www.facebook.com/DurhamUniversityNetballClub/"> <i class="fab fa-facebook"></i>
+          <a href="https://twitter.com/DUNetballClub?lang=en"> <i class="fab fa-twitter-square"></i>
+          <a href="https://www.instagram.com/durhamuninetball/?hl=en"><i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+<script>
+
+  function signingUp(){
+    var forename = $('#forename').val();
+    var surname = $('#surname').val();
+    var username = $('#username').val();
+    var password =  $('#password').val();
+    console.log(forename + " " + surname + " " + username + " " + password);
+    $.post("./people",
+    {
+      forename: $("#forename").val(),
+      surname: $("#surname").val(),
+      username: $('#username').val(),
+      password: $('#password').val(),
+      access_token: ("concertina")
+    },
+    function(){
+      sendUser();
+    }).fail(function(data){
+      console.log(data.responseJSON.message);
+    });
+
+  };
+
+  function loginFunction(e){
+    e.preventDefault();
+    var forename = $('#forename1').val();
+    var surname = $('#surname1').val();
+    var username = $('#username1').val();
+    var password =  $('#password1').val();
+    console.log(forename + " " + surname + " " + username + " " + password);
+    $.post("./login",
+    {
+      forename: $("#forename1").val(),
+      surname: $("#surname1").val(),
+      username: $('#username1').val(),
+      password: $('#password1').val()
+    },
+    function(){
+      sendUser1();
+    }).fail(function(data){
+       console.log("it reached the fail function");
+      console.log(data.responseJSON.message);
+    });
+
+    // console.log("function is called");
+    // var forename = $('#forename1').val();
+    // var surname = $('#surname1').val();
+    // var username = $('#username1').val();
+    // var password =  $('#password1').val();
+    // console.log(forename + " " + surname + " " + username + " " + password);
+    // $.post("./login",
+    // {
+    //     forename: $("#forename1").val(),
+    //   surname: $("#surname1").val(),
+    //   username: $('#username1').val(),
+    //   password: $('#password1').val()
+    //   },
+    //   function(){
+    //     sendUser1();
+    //   }).fail(function(data){
+    //     $('#signedIn').html(data.responseJSON.message);
+    //   });
+    // $.get("./login", "name=" + forename, 
+    //   function (data){
+    //     $('#signedIn').html(data);
+    //   });
+    //sendUser1();
+  };
+
+  function sendUser(){
+    var username = $('#username').val(),
+      url = "./admin.html?name=" + username;
+
+      window.location.href = url;
+  };
+
+   function sendUser1(){
+    var username = $('#username1').val(),
+      url = "./admin.html?name=" + username;
+
+      window.location.href = url;
+  };
+
+  $('#signUp').on('submit', signingUp);
+  $('#loginForm').on('submit', loginFunction);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+	font-family: inherit;
+	text-align: center;
+}
+
+.btn {
+	background-color: #682860;
+	border-color: #682860;
+}
+
+.jumbotron {
+	background-image: url("../images/1stTeam.jpg");
+	background-size: cover;
+	font-weight: 400;
+	color: white;
+	max-height: 100%;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.page-footer{
+	background-color: #682860;
+	color: white;
+}
+
+.fab {
+    font-size: 30px;
+    margin: 2px 5px;
+    color: white;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,28 @@
+body {
+	font-family: inherit;
+	text-align: center;
+}
+
+.btn {
+	background-color: #682860;
+	border-color: #682860;
+	color: #fff
+}
+
+
+#going:visted{
+	background-color: green;
+}
+
+
+.jumbotron {
+	background-image: url("../images/1stTeam.jpg");
+	background-size: cover;
+	color: #ffffff;
+	max-height: 100%;
+}
+
+.cardButtons {
+	margin-left: auto;
+	margin-right: auto;
+}
