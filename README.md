@@ -28,4 +28,4 @@ I chose to implement a webpage based on my University Netball Club
 * It will be running on port 8090
 
 ### To run the hosted version:
-https://dunc.herokuapp.com/
+https://dunc-website.herokuapp.com/
